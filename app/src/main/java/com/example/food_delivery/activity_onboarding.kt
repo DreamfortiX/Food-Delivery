@@ -13,13 +13,14 @@ import com.google.android.material.button.MaterialButton
 class activity_onboarding : AppCompatActivity() {
 
     private lateinit var viewPager: ViewPager2
+
     private lateinit var dotIndicator: LinearLayout
     private lateinit var onboardingAdapter: OnboardingAdapter
 
     private val onboardingItems = listOf(
         OnboardingItem(R.drawable.startd1, "Insta Chow", "Food", "Grocery", "Dine-out", "Order from top restaurants."),
-        OnboardingItem(R.drawable.started2, "Explore", "Description 1", "Description 2", "Description 3", "Detail description."),
-        OnboardingItem(R.drawable.started3, "Get Started", "Description 1", "Description 2", "Description 3", "Detail description.")
+        OnboardingItem(R.drawable.started2, "Fastest Delivery in South Africa", "Description 1", "Description 2", "Description 3", "Our team of delivery experts is ready to get your items to you faster than ever. Simply place your order, and we'll ensure it reaches your doorstep in no time!"),
+        OnboardingItem(R.drawable.started3, "Get Your Favorite Items", "Description 1", "Description 2", "Description 3", "Browse through a wide selection of products and find exactly what you need. With just a few clicks, your favorite items will be on their way to you, hassle-free!.")
     )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
