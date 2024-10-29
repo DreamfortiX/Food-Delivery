@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/instaGro"
+        android:icon="@drawable/bar2"
+        android:title="InstaGro" />
+    <item
+        android:id="@+id/categories"
+        android:icon="@drawable/bar3"
+        android:title="Categories" />
+    <item
+        android:id="@+id/record"
+        android:icon="@drawable/bar4"
+        android:title="Reorder" />
+    <item
+        android:id="@+id/offer"
+        android:icon="@drawable/bar5"
+        android:title="Offers" />
+</menu>

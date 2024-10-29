@@ -1,4 +1,5 @@
-import android.content.Context
+package com.example.food_delivery
+
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
@@ -8,9 +9,6 @@ import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.widget.AppCompatButton
 import androidx.recyclerview.widget.RecyclerView
-import com.example.food_delivery.MainActivity
-import com.example.food_delivery.OnboardingItem
-import com.example.food_delivery.R
 
 class OnboardingAdapter(
     private val items: List<OnboardingItem>,

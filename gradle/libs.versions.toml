@@ -12,10 +12,14 @@ activity = "1.9.3"
 constraintlayout = "2.1.4"
 materialVersion = "1.4.0"
 viewpager2 = "1.1.0"
+viewpager2Version = "1.0.0'"
+navigationFragmentKtx = "2.8.3"
+navigationUiKtx = "2.8.3"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-viewpager2 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewpager2" }
+androidx-viewpager2-v100 = { module = "androidx.viewpager2:viewpager2", version.ref = "viewpager2Version" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -25,6 +29,8 @@ androidx-activity = { group = "androidx.activity", name = "activity", version.re
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
 material-v140 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
 material-v190 = { module = "com.google.android.material:material", version.ref = "googleMaterial" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

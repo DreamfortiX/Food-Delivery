@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/instaCho">
+
+
+    <fragment
+        android:id="@+id/instaCho"
+        android:name="com.example.food_delivery.Fragments.InstaCho"
+        android:label="fragment_insta_cho"
+        tools:layout="@layout/fragment_insta_cho" />
+    <fragment
+        android:id="@+id/instaGro"
+        android:name="com.example.food_delivery.Fragments.InstaGro"
+        android:label="fragment_insta_gro"
+        tools:layout="@layout/fragment_insta_gro" />
+    <fragment
+        android:id="@+id/record"
+        android:name="com.example.food_delivery.Fragments.Record"
+        android:label="fragment_record"
+        tools:layout="@layout/fragment_record" />
+    <fragment
+        android:id="@+id/categories"
+        android:name="com.example.food_delivery.Fragments.Categories"
+        android:label="fragment_categories"
+        tools:layout="@layout/fragment_categories" />
+    <fragment
+        android:id="@+id/offer"
+        android:name="com.example.food_delivery.Fragments.Offer"
+        android:label="fragment_offer"
+        tools:layout="@layout/fragment_offer" />
+</navigation>

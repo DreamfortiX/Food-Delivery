@@ -1,6 +1,5 @@
 package com.example.food_delivery
 
-import OnboardingAdapter
 import android.os.Bundle
 import android.view.Window
 import android.view.WindowManager
@@ -8,7 +7,6 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
-import com.google.android.material.button.MaterialButton
 
 class activity_onboarding : AppCompatActivity() {
 

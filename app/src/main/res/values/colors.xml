@@ -3,6 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     background: linear-gradient(359.55deg, #000000 0.44%, #666666 107.62%);
-
+    <color name="selectedColor">#FF000000</color> <!-- Replace with your chosen color -->
+    <color name="unselectedColor">#E6DFDF</color>
 
 </resources>
