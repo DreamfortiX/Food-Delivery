@@ -4,6 +4,28 @@
     <color name="white">#FFFFFFFF</color>
     background: linear-gradient(359.55deg, #000000 0.44%, #666666 107.62%);
     <color name="selectedColor">#FF000000</color> <!-- Replace with your chosen color -->
-    <color name="unselectedColor">#E6DFDF</color>
+    <color name="unselectedColor">#2E2D2D</color>
+    <color name="purple_80">#D0BCFF</color>
+    <color name="purple_grey_80">#CCC2DC</color>
+    <color name="pink_80">#EFB8C8</color>
+
+    <color name="purple_40">#6650A4</color>
+    <color name="purple_grey_40">#625B71</color>
+    <color name="pink_40">#7D5260</color>
+
+    <color name="orange">#14718B</color>
+    <color name="One">#22C4F1</color>
+    <color name="orange_2">#F1A581</color>
+    <color name="chiku">#AFD56E</color>
+    <color name="cakke">#FCD2B9</color>
+    <color name="coffee">#FCCC80</color>
+    <color name="button_color">#953632</color>
+    <color name="black_text_color">#121212</color>
+    <color name="gray_text_color">#B2B2B2</color>
+    <color name="menu_button_color">#C8665B</color>
+    <color name="gradient_color_1">#14718B</color>
+    <color name="gradient_color_2">#32E8E8E8</color>
+    <color name="user_color">#4F564F</color>
+    <color name="light_gray">#EFEFEF</color>
 
 </resources>

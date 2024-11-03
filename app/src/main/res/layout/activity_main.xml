@@ -3,7 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/no_status_bar"
     android:id="@+id/main"
+    android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -58,7 +60,6 @@
                 <ImageView
                     android:layout_width="2dp"
                     android:layout_height="50dp"
-                    android:layout_marginStart="9dp"
                     android:layout_gravity="center_vertical"
                     android:src="@drawable/vector_9_wrapper"/>
             </LinearLayout>
@@ -66,10 +67,12 @@
 
             <com.google.android.material.bottomnavigation.BottomNavigationView
                 android:id="@+id/bottomNavigationView"
+                style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:labelVisibilityMode="labeled"
                 android:background="@color/white"
+                app:itemBackground="@drawable/bottom_nav_item_background"
                 app:itemTextColor="@color/black"
                 android:clickable="true"
                 app:itemIconTint="@color/black"

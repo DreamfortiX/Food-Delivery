@@ -1,0 +1,19 @@
+<!-- res/drawable/vector_5.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="26dp"
+    android:height="23dp"
+    android:viewportWidth="26"
+    android:viewportHeight="23">
+
+    <group>
+        <!-- Clip-path to define outer box shape -->
+        <clip-path
+            android:pathData="M1.5 0.5H24.5C25.0523 0.5 25.5 0.947715 25.5 1.5V21.5C25.5 22.0523 25.0523 22.5 24.5 22.5H1.5C0.947715 22.5 0.5 22.0523 0.5 21.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5Z" />
+
+        <!-- Path to draw the inner shape and fill color -->
+        <path
+            android:pathData="M0.5 0.5V22.5H25.5V0.5"
+            android:fillColor="#14718B" />
+    </group>
+</vector>

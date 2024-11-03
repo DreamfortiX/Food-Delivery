@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.food_delivery"
-        minSdk = 22
+        minSdk = 28
         //noinspection OldTargetApi
         targetSdk = 34
         versionCode = 1
@@ -45,6 +45,8 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.car.ui.lib)
+    implementation(libs.androidx.ui.graphics.android)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -74,6 +76,10 @@ dependencies {
         // Optional: For ViewModel and LiveData
         implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
         implementation ("androidx.lifecycle:lifecycle-livedata-ktx:2.6.1")
+        implementation ("de.hdodenhof:circleimageview:3.1.0")
+//glide
+        implementation ("com.github.bumptech.glide:glide:4.12.0")
+        annotationProcessor ("com.github.bumptech.glide:compiler:4.12.0")
     }
 
 

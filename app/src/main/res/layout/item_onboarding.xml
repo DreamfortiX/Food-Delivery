@@ -4,8 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/gradient_background">
+    android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/onboardingImage"
@@ -13,7 +12,6 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:alpha="0.6"
-        android:background="@drawable/gradient_background"
         android:contentDescription="love" />
 
     <TextView

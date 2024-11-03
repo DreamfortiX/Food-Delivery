@@ -2,4 +2,16 @@
     <string name="app_name">Food_Delivery</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mic_icon">Mic Icon</string>
+    <string name="your_ordering_rewards">YOUR ORDERING REWARDS</string>
+    <string name="coming_soon_offer">Coming Soon..Offer..</string>
+    <string name="coming_soon_reorder">Coming Soon.Reorder...</string>
+    <string name="coming_soon_category">Coming Soon Category....</string>
+    <string name="popular_brands">Popular Brands</string>
+    <string name="search_for_dishes_or_restaurants">Search for dishes or restaurants</string>
+    <string name="mess1">5th Floor,Gujarat Samast Musi...</string>
+    <string name="one">ONE</string>
+    <string name="mess">Muslim Samaj Ho...</string>
+    <string name="what_s_on_your_mind">What\'s on your mind</string>
+    <string name="insta_chow">Insta Chow</string>
 </resources>
